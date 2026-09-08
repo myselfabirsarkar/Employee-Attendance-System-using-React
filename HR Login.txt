@@ -1,0 +1,3 @@
+HR Login:
+Email: hr@attendance.local
+Password: HR@12345
