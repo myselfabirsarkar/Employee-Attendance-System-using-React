@@ -1,0 +1,86 @@
+.register-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: #f5f7fb;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+/* Brand */
+.register-card .brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 35px;
+}
+
+/* Heading */
+.register-card h1 {
+  text-align: center;
+  margin: 0 0 15px;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+/* Description */
+.register-description {
+  max-width: 420px;
+  margin: 0 auto 30px;
+  text-align: justify;
+  line-height: 1.6;
+  color: #64748b;
+}
+
+/* Form */
+.register-form {
+  width: 100%;
+  max-width: 430px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Labels */
+.register-form label {
+  display: block;
+  text-align: left;
+  margin: 0 0 7px;
+  font-weight: 600;
+}
+
+/* Input wrapper */
+.register-form .field {
+  width: 100%;
+  margin-bottom: 22px;
+  box-sizing: border-box;
+}
+
+/* Inputs */
+.register-form input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Button */
+.register-form button.primary-button {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Login link */
+.switch-text {
+  margin-top: 25px;
+  text-align: center;
+}
